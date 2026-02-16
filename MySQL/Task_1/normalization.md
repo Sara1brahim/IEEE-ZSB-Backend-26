@@ -166,15 +166,6 @@ There are no partial or transitive dependencies.
 
 The database is now in 3NF.
 
----
-
-# Final Result
-
-By reaching 3NF, we:
-
-- Eliminated data redundancy
-- Prevented update anomalies
-- Improved data integrity
 - Made the system scalable and maintainable
 
 This structure is suitable for a real university database system.
