@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UniCore | Student Registration</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="/submit-registration" method="POST">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="dept">Department:</label><br>
+        <select id="dept" name="department">
+            <option value="CS">Computer Science (CS)</option>
+            <option value="IT">Information Technology (IT)</option>
+            <option value="IS">Information Systems (IS)</option>
+        </select><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
